@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+   <!--=============== SWIPER CSS ===============-->
+   <link rel="stylesheet" href="assets/swiper-bundle.min.css">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+
+   <title>Practice travel website - GitMahfuj</title>
+</head>
+
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav__bar" id="nav-bar">
+         <div class="nav__logo" id="nav-logo">
+            <img src="assets/img/logo.svg" alt="logo" class="nav__image" id="nav-image">Go travel
+         </div>
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li class="nav__link"><a href="#home" class="nav__scroll">Home</a></li>
+               <li class="nav__link"><a href="#destination" class="nav__scroll">Destination</a></li>
+               <li class="nav__link"><a href="#testimonial" class="nav__scroll">Testimonials</a></li>
+               <li class="nav__link"><a href="#gallery" class="nav__scroll">Gallery</a></li>
+               <li class="nav__link" "><a href="#join" class="nav__scroll">Join Us</a></li>
+            </ul>
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-large-line nav__close"></i>
+            </div>
+         </div>
+         <div class="nav__btns" id="theme-btn">
+            <i class="ri-moon-fill theme__btn" id="nav-theme"></i>
+            <i class="ri-apps-fill toggle__btn" id="nav-toggle"></i>
+         </div>
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+         <div class="home_section" id="home">
+            <img src="assets/img/home-img-1.png" alt="" class="home__bg">
+            <div class="home__blur"></div>
+            <div class="home__container container grid" id="home-container ">
+               <div class="home__data">
+                  <h1 class="home__heading">
+                     Travel Around <br> The World
+                  </h1>
+                  <h2 class="home__subheading">
+                     Explore the best beautiful tourist spots in
+                     the countries and see the world on all your
+                     amazing adventures.
+                  </h2>
+                  <a href="#destination" class="home__btn" id="home-btn">Explore World <i
+                        class="ri-arrow-right-line"></i></a>
+
+
+               </div>
+               <div class="home__swiper swiper">
+                  <div class="swiper-wrapper">
+                     <article class="home__article swiper-slide">
+                        <img src="assets/img/home-img-1.png" alt="" class="home__image">
+                     </article>
+                     <article class="home__article swiper-slide">
+                        <img src="assets/img/home-img-2.png" alt="" class="home__image">
+                     </article>
+                     <article class="home__article swiper-slide">
+                        <img src="assets/img/home-img-3.png" alt="" class="home__image">
+                     </article>
+                     <article class="home__article swiper-slide">
+                        <img src="assets/img/home-img-4.png" alt="" class="home__image">
+                     </article>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+
+               </div>
+            </div>
+
+         </div>
+      </section>
+
+      <!--==================== DESTINATION ====================-->
+      <section class="destination section" id="destination">
+         <h1 class="destination__header">
+            Pick up your<br> best destination
+         </h1>
+         <div class="destination__container container grid">
+
+            <article class="destination__card">
+               <img src="assets/img/destination-img-1.png" alt="" class="destination__image">
+               <div class="destination__data">
+                  <h3 class="destination__subheading">Bali</h3>
+                  <h2 class="destination__heading">Island</h2>
+                  <p class="destination__name">
+                     <i class="ri-map-pin-2-fill"></i>
+                     <span>Indonesia</span>
+                  </p>
+               </div>
+            </article>
+            <article class="destination__card">
+               <img src="assets/img/destination-img-2.png" alt="" class="destination__image">
+               <div class="destination__data">
+                  <h3 class="destination__subheading">Banana</h3>
+                  <h2 class="destination__heading">Beach</h2>
+                  <p class="destination__name">
+                     <i class="ri-map-pin-2-fill"></i>
+                     <span>Tailandia</span>
+                  </p>
+               </div>
+            </article>
+            <article class="destination__card">
+               <img src="assets/img/destination-img-3.png" alt="" class="destination__image">
+               <div class="destination__data">
+                  <h3 class="destination__subheading">Santorni</h3>
+                  <h2 class="destination__heading">Island</h2>
+                  <p class="destination__name">
+                     <i class="ri-map-pin-2-fill"></i>
+                     <span>Gracia</span>
+                  </p>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <!--==================== TESTIMONIAL ====================-->
+      <section class="testimonial section" id="testimonial">
+         <h2 class="testimonial__heading">What Are <br> They Saying?</h2>
+         <div class="testimonial__container container grid">
+            <img src="assets/img/testimonial-img.png" alt="" class="testimonial__image">
+            <div class="testimonial__swiper swiper">
+               <div class="swiper-wrapper">
+                  <div class="testimonial__card swiper-slide">
+                     <h2 class="testimonial__title">Ama Dablam</h2>
+                     <p class="testimonial__description">I was delighted to visit the country because the
+                        scenery is beautiful. The residents also welcomed
+                        me happily and with smiles.</p>
+                     <div class="testimonial__profile">
+                        <img src="assets/img/testimonial-profile-1.png" alt="">
+                        <div class="testimonial__info">
+                           <h3>Will
+                           </h3>
+                           <p>
+                              Photographer</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="testimonial__card swiper-slide">
+                     <h2 class="testimonial__title">Mount Fuji</h2>
+                     <p class="testimonial__description">I was delighted to visit the country because the
+                        scenery is beautiful. The residents also welcomed
+                        me happily and with smiles.</p>
+                     <div class="testimonial__profile">
+                        <img src="assets/img/testimonial-profile-2.png" alt="">
+                        <div class="testimonial__info">
+                           <h3>
+                              Rose
+                           </h3>
+                           <p>
+
+                              Influencer</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="testimonial__card swiper-slide">
+                     <h2 class="testimonial__title">Maldievs</h2>
+                     <p class="testimonial__description">I was delighted to visit the country because the
+                        scenery is beautiful. The residents also welcomed
+                        me happily and with smiles.</p>
+                     <div class="testimonial__profile">
+                        <img src="assets/img/testimonial-profile-3.png" alt="">
+                        <div class="testimonial__info">
+                           <h3>Gian</h3>
+                           <p>Blogger</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-button-prev">
+                  <i class="ri-arrow-left-line"></i>
+               </div>
+               <div class="swiper-button-next">
+                  <i class="ri-arrow-right-line"></i>
+               </div>
+            </div>
+
+
+         </div>
+      </section>
+
+      <!--==================== GALLERY ====================-->
+      <section class="gallery section container grid" id="gallery">
+         <h2 class="gallery__heading">Your Journey <br> Starts Here</h2>
+         <div class="gallery__container">
+
+            <article class="gallery__card">
+               <img src="assets/img/gallery-img-1.png" alt="" class="gallery__image">
+               <div class="gallery__shadow"></div>
+               <div class="gallery__data">
+                  <h2 class="gallery__subtitle">Nusa</h2>
+                  <h1 class="gallery__title">Indonesia</h1>
+               </div>
+            </article>
+            <article class="gallery__card">
+               <img src="assets/img/gallery-img-2.png" alt="" class="gallery__image">
+               <div class="gallery__shadow"></div>
+               <div class="gallery__data">
+                  <h2 class="gallery__subtitle">Cook</h2>
+                  <h1 class="gallery__title">Nueva Zelanda</h1>
+               </div>
+            </article>
+            <article class="gallery__card">
+               <img src="assets/img/gallery-img-3.png" alt="" class="gallery__image">
+               <div class="gallery__shadow"></div>
+               <div class="gallery__data">
+                  <h2 class="gallery__subtitle">Bora Bora</h2>
+                  <h1 class="gallery__title">Polinesia</h1>
+               </div>
+            </article>
+            <article class="gallery__card">
+               <img src="assets/img/gallery-img-4.png" alt="" class="gallery__image">
+               <div class="gallery__shadow"></div>
+               <div class="gallery__data">
+                  <h2 class="gallery__subtitle">Santorini</h2>
+                  <h1 class="gallery__title">Grecia</h1>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <!--==================== JOIN ====================-->
+      <section class="join section" id="join">
+         <div class="join__container container grid">
+            <div class="join__data">
+               <h2 class="join__heading">Your Journey <br> Starts Here</h2>
+               <p class="join__description">Get up to date with the latest travel
+                  and information from us.</p>
+               <form action="" class="join__form">
+                  <input type="text" placeholder="Enter your email" class="join__input">
+                  <button class="join__btn button">Join our NewsLetter
+                     <i class="ri-arrow-right-line"></i>
+                  </button>
+               </form>
+
+            </div>
+            <img src="assets/img/join-img.png" alt="" class="join__image">
+         </div>
+      </section>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <a href="#" class="footer__logo">
+            <img src="assets/img/logo.svg" alt="">
+            <span>Go travel</span>
+         </a>
+         <div class="footer__content grid">
+            <div>
+               <h3 class="footer__title">About</h3>
+               <ul class="footer__links">
+                  <li><a href="#" class="footer__link">About Us</a> </li>
+                  <li><a href="#" class="footer__link">Features</a></li>
+                  <li><a href="#" class="footer__link">News and Blogs</a></li>
+               </ul>
+            </div>
+            <div>
+               <h3 class="footer__title">Contact</h3>
+               <ul class="footer__links">
+                  <li><a href="#" class="footer__link">Call center</a></li>
+                  <li><a href="#" class="footer__link">Support</a></li>
+                  <li><a href="#" class="footer__link">Contact Us</a></li>
+               </ul>
+            </div>
+            <div>
+               <h3 class="footer__title">Support</h3>
+               <ul class="footer__links">
+                  <li><a href="#" class="footer__link">Privacy Policy</a></li>
+                  <li><a href="#" class="footer__link">Terms and condition</a></li>
+                  <li><a href="#" class="footer__link">Payments</a></li>
+               </ul>
+            </div>
+            <div>
+               <h3 class="footer__title">Social</h3>
+               <ul class="footer__social_links">
+                  <li><a href="https://www.facebook.com/mahfujur.rahman.949195" class="footer__social_link"><i
+                           class="ri-facebook-line"></i></a></li>
+                  <li><a href="https://www.instagram.com/gorib_mahfuj/" class="footer__social_link"><i
+                           class="ri-instagram-line"></i></a></li>
+                  <li><a href="https://github.com/git-mahfuj" class="footer__social_link">
+                        <i class="ri-github-fill"></i>
+                     </a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="footer__copy">
+            <span>&#169; All Rights Reserved By GitMahfuj</span>
+         </div>
+      </div>
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+
+
+   <!--=============== SCROLLREVEAL ===============-->
+   <script src="assets/scrollreveal.min.js"></script>
+
+   <!--=============== SWIPER JS ===============-->
+   <script src="assets/swiper-bundle.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+</body>
+
+</html>
